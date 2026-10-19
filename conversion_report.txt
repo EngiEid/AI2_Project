@@ -1,0 +1,169 @@
+SPSS TO CSV CONVERSION REPORT
+============================================================
+
+Input file: D:\.4th year 1st term\AI2\Project\Excessive use of Social Media on 1st year Students Experiences and Well-being.sav
+Output file: D:\.4th year 1st term\AI2\Project\Excessive use of Social Media on 1st year Students Experiences and Well-being.csv
+Rows: 158
+Columns: 22
+
+COLUMN NAME MAPPING
+------------------------------------------------------------
+Q1 -> Department
+  Variable label: Department
+Q2 -> gender
+  Variable label: gender
+Q3 -> Age
+  Variable label: Age
+Q4 -> I_am
+  Variable label: I_am
+Q5 -> I_am_aan
+  Variable label: I_am_aan
+Q6 -> Disability_student
+  Variable label: Disability_student
+Q7 -> Do_you_consider_that_you_have_enough_support_from_your_Department_andor_University_(ie,_Disabilities_Services_Office,_facilities)
+  Variable label: Do_you_consider_that_you_have_enough_support_from_your_Department_andor_University_(ie,_Disabilities_Services_Office,_facilities)
+Q8 -> If_No,_how_can_your_department_andor_University_support_you_further
+  Variable label: If_No,_how_can_your_department_andor_University_support_you_further
+Q9 -> During_my_studies_at_the_university,_I_am_living
+  Variable label: During_my_studies_at_the_university,_I_am_living
+Q10 -> How_often_do_you_think_about_withdrawing_from_university
+  Variable label: How_often_do_you_think_about_withdrawing_from_university
+Q11 -> How_often_do_you_feel_like_you_need_more_support_from_your_family
+  Variable label: How_often_do_you_feel_like_you_need_more_support_from_your_family
+Q12 -> How_often_do_you_feel_like_you_need_more_support_from_your_friends
+  Variable label: How_often_do_you_feel_like_you_need_more_support_from_your_friends
+Q13 -> How_often_do_you_feel_you_need_more_support_from_your_university
+  Variable label: How_often_do_you_feel_you_need_more_support_from_your_university
+Q15 -> Social_media_platform
+  Variable label: Social_media_platform
+Q16 -> Frequency_of_use
+  Variable label: Frequency_of_use
+Q17 -> Purpose_of_use
+  Variable label: Purpose_of_use
+Q17_7_TEXT -> What_do_you_use_social_media_for_-_Other,_please_specify..._-_Text
+  Variable label: What_do_you_use_social_media_for_-_Other,_please_specify..._-_Text
+UniversitySupport -> University_support
+  Variable label: University_support
+ProblematicUse -> Problematic_Use
+  Variable label: Problematic_Use
+Loneliness -> Lone
+  Variable label: Lone
+Depression -> Depression
+  Variable label: Depression
+Anxiety -> Anxiety
+  Variable label: Anxiety
+
+VALUE LABEL CONVERSION
+------------------------------------------------------------
+Q1 -> Department: 2 value labels available.
+Q2 -> gender: 4 value labels available.
+Q3 -> Age: No value labels; original values retained.
+Q4 -> I_am: 2 value labels available.
+Q5 -> I_am_aan: 2 value labels available.
+Q6 -> Disability_student: 3 value labels available.
+Q7 -> Do_you_consider_that_you_have_enough_support_from_your_Department_andor_University_(ie,_Disabilities_Services_Office,_facilities): 2 value labels available.
+Q8 -> If_No,_how_can_your_department_andor_University_support_you_further: No value labels; original values retained.
+Q9 -> During_my_studies_at_the_university,_I_am_living: 5 value labels available.
+Q10 -> How_often_do_you_think_about_withdrawing_from_university: 5 value labels available.
+Q11 -> How_often_do_you_feel_like_you_need_more_support_from_your_family: 5 value labels available.
+Q12 -> How_often_do_you_feel_like_you_need_more_support_from_your_friends: 5 value labels available.
+Q13 -> How_often_do_you_feel_you_need_more_support_from_your_university: 5 value labels available.
+Q15 -> Social_media_platform: 7 value labels available.
+Q16 -> Frequency_of_use: 5 value labels available.
+Q17 -> Purpose_of_use: 7 value labels available.
+Q17_7_TEXT -> What_do_you_use_social_media_for_-_Other,_please_specify..._-_Text: No value labels; original values retained.
+UniversitySupport -> University_support: No value labels; original values retained.
+ProblematicUse -> Problematic_Use: No value labels; original values retained.
+Loneliness -> Lone: No value labels; original values retained.
+Depression -> Depression: No value labels; original values retained.
+Anxiety -> Anxiety: No value labels; original values retained.
+
+VALUE LABEL DICTIONARY
+------------------------------------------------------------
+
+Q1:
+  1.0 = Psychology
+  2.0 = Engineering
+
+Q2:
+  1.0 = Male
+  2.0 = Female
+  3.0 = Other
+  8.0 = Prefer not to say
+
+Q4:
+  1.0 = mature and/or students with caring responsibilities
+  2.0 = Not a mature student and not caring responsibility
+
+Q5:
+  1.0 = Home student
+  2.0 = International student
+
+Q6:
+  1.0 = Yes
+  2.0 = No
+  3.0 = Prefer not to say
+
+Q7:
+  1.0 = Yes
+  2.0 = No
+
+Q9:
+  1.0 = With parents/guardians (at home address)
+  2.0 = With housemates in a university hall of residence
+  3.0 = Alone in a university halls of residence
+  4.0 = Alone in rented accomodation
+  5.0 = With housemates in rented accomodation
+
+Q10:
+  1.0 = Never
+  2.0 = Rarely
+  3.0 = Sometimes
+  4.0 = Often
+  5.0 = Frequently
+
+Q11:
+  1.0 = Never
+  2.0 = Rarely
+  3.0 = Sometimes
+  4.0 = Often
+  5.0 = Frequently
+
+Q12:
+  1.0 = Never
+  2.0 = Rarely
+  3.0 = Sometimes
+  4.0 = Often
+  5.0 = Frequently
+
+Q13:
+  1.0 = Never
+  2.0 = Rarely
+  3.0 = Sometimes
+  4.0 = Often
+  5.0 = Frequently
+
+Q15:
+  2.0 = Youtube
+  3.0 = TikTok
+  4.0 = Instagram
+  5.0 = Snapchat
+  6.0 = Facebook
+  7.0 = Twitter
+  8.0 = Other
+
+Q16:
+  2.0 = less than 2hrs +
+  3.0 = 3hrs +
+  4.0 = 4hrs +
+  5.0 = 5hrs +
+  6.0 = 6hrs+
+
+Q17:
+  1.0 = Communicating with friends and/or family
+  2.0 = Interesting infamous celebrities and/or influencers
+  3.0 = Watching educational-related videos
+  4.0 = Watching videos that interest you
+  5.0 = Passing time
+  6.0 = Entertaining yourself
+  7.0 = Other, please specify...
